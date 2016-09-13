@@ -1,0 +1,8 @@
+[package]
+name = "libsgutils2-sys"
+version = "0.0.1"
+authors = ["Richard Bradfield <bradfier@fstab.me>"]
+license = "MIT"
+description = "Native bindings to sgutils2 library. Placeholder crate."
+
+[dependencies]
