@@ -4,5 +4,13 @@ version = "0.0.1"
 authors = ["Richard Bradfield <bradfier@fstab.me>"]
 license = "MIT"
 description = "Native bindings to sgutils2 library. Placeholder crate."
+links = "sgutils2"
+build = "build.rs"
 
-[dependencies]
+[lib]
+name = "sgutils2_sys"
+path = "lib.rs"
+
+
+[build-dependencies]
+pkg-config = "0.3"
