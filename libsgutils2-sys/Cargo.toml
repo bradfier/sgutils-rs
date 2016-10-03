@@ -8,7 +8,7 @@ links = "sgutils2"
 build = "build.rs"
 
 [lib]
-name = "sgutils2_sys"
+name = "libsgutils2_sys"
 path = "lib.rs"
 
 

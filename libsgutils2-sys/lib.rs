@@ -5,12 +5,5 @@
 
 extern crate libc;
 
-mod sg_lib;
-mod sg_cmds;
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-    }
-}
+pub mod sg_lib;
+pub mod sg_cmds;

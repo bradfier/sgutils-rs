@@ -10,5 +10,5 @@ device drivers under Linux.
 Placeholder crate.
 """
 
-[dependencies]
-libsgutils2-sys = { path = "libsgutils2-sys", version = "0.0.1" }
+[dependencies.libsgutils2-sys]
+path = "libsgutils2-sys"
